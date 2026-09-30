@@ -24,7 +24,7 @@ include(KDECMakeSettings)
 include(KDEGitCommitHooks)
 include(ECMDeprecationSettings)
 
-set(REQUIRED_QT_VERSION 6.9.0)
+set(REQUIRED_QT_VERSION 6.10.0)
 find_package(Qt6 ${REQUIRED_QT_VERSION} REQUIRED Core DBus Network Qml)
 
 remove_definitions(-DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_FROM_BYTEARRAY)
