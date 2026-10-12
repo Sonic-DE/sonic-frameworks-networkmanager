@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.29)
+cmake_minimum_required(VERSION 3.30)
 
 set(KF_VERSION "6.30.0") # handled by release scripts
 project(NetworkManagerQt VERSION ${KF_VERSION})
@@ -24,7 +24,7 @@ include(KDECMakeSettings)
 include(KDEGitCommitHooks)
 include(ECMDeprecationSettings)
 
-set(REQUIRED_QT_VERSION 6.9.0)
+set(REQUIRED_QT_VERSION 6.10.0)
 find_package(Qt6 ${REQUIRED_QT_VERSION} REQUIRED Core DBus Network Qml)
 
 remove_definitions(-DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_FROM_BYTEARRAY)
@@ -35,6 +35,7 @@ include(ECMGenerateHeaders)
 include(ECMQtDeclareLoggingCategory)
 include(ECMQmlModule)
 include(ECMGenerateQDoc)
+include(ECMInstalledLibraryCheck)
 
 ecm_setup_version(PROJECT VARIABLE_PREFIX NETWORKMANAGERQT
                         VERSION_HEADER "${CMAKE_CURRENT_BINARY_DIR}/networkmanagerqt_version.h"
