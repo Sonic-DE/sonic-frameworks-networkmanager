@@ -8,6 +8,8 @@ type: integration
 platforms:
     - name: Linux
       note: Functional only with running NetworkManager
+    - name: FreeBSD
+      note: Builds against networkmanager-shim; needs a NetworkManager-compatible service at runtime
 portingAid: false
 deprecated: false
 release: true
