@@ -2,6 +2,11 @@
 
 Sonic Frameworks NetworkManager connects SonicDE to your system's network settings, so you can manage wired, wireless and VPN connections from the desktop.
 
+## Unreleased
+
+- Builds on FreeBSD and GhostBSD.
+- Behind the scenes: a test no longer crashes on FreeBSD.
+
 ## 6.31.0 (2026-10-20)
 
 - Behind the scenes: version number updated for this release.

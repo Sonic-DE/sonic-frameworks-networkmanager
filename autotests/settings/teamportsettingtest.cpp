@@ -107,7 +107,6 @@ void TeamPortSettingTest::testSetting()
             }
         }
     }
-    ++it;
     QCOMPARE(comparedMaps, list.count());
 }
 
