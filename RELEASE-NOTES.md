@@ -5,7 +5,6 @@ Sonic Frameworks NetworkManager connects SonicDE to your system's network settin
 ## Unreleased
 
 - Builds on FreeBSD and GhostBSD.
-- Behind the scenes: a test no longer crashes on FreeBSD.
 
 ## 6.31.0 (2026-10-20)
 
